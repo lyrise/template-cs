@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "console (win)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/tmp/bin/win-vscode/Sample/Debug/net6.0/Sample.exe",
+            "args": [],
+            "cwd": "${workspaceFolder}/demo",
+            "console": "internalConsole",
+            "stopAtEntry": false
+        }
+    ]
+}
